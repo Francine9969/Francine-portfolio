@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 40px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+   
+}
+.cv-container{
+    width: 21cm;
+    min-height: 29.7cm;
+    background: white;
+    display: flex;
+
+    
+}
+.left-column{
+    background-color:orange;
+    width: 60%;
+    box-sizing: border-box;
+    position: relative;
+}
+.right-column{
+    width:60% ;
+    background-color: white;
+    box-sizing: border-box;
+   
+}
+.profile{ 
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+}
+.profile-rond{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 70%;
+    border: 3px solid cyan;
+    box-shadow: 0 0 10px rgba(0,0, 0, 2);
+
+}
+.left-column::after{
+    content: '';
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+.job h2{
+    text-align: left;
+    display: flex;
+
+}
